@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./guess.css" />
+    <title>Guessing game</title>
+  </head>
+  <body>
+    <center>
+      <p class="range">Guessing Game</p>
+      <div id="top">
+        <!--<button class="retry">Try Again!</button>-->
+        <div id="trydiv">
+          <p class="try">Attempts left:</p>
+          <p class="try" id="try1">5</p>
+        </div>
+        <div id="modediv">
+          <button class="modebtn" onclick="easy()">Easy</button>
+          <button class="modebtn" onclick="medium()">Medium</button>
+          <button class="modebtn" onclick="hard()">Hard</button>
+        </div>
+      </div>
+
+      <div class="big" id="big1">
+        <h1 id="guesstxt">Guess the Number!</h1>
+        <hr />
+        <div>
+          <p class="diff">Mode:</p>
+          <div class="diff" id="modee">None</div>
+          <button onclick="reset()" id="resetbtn">Reset</button>
+        </div>
+        <section>
+          <div id="alertt"></div>
+          <div class="end">
+            <input
+              class="button"
+              id="numberguess"
+              type="number"
+              placeholder="Enter a guess!"
+            />
+            <div>
+              <button class="button" id="buttonguess" onclick="guess()">
+                GUESS!
+              </button>
+            </div>
+          </div>
+          <div>
+            <p class="bottomtxt">GOOD LUCK!!</p>
+          </div>
+        </section>
+      </div>
+    </center>
+    <script src="guess.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(44, 44, 44);
+  font-size: large;
+}
+/*.top {
+  display: flex;
+  justify-content: space-between;
+}*/
+.try {
+  padding-right: 5px;
+  display: inline;
+  font-size: 15px;
+  color: white;
+}
+.range {
+  color: white;
+  font-size: 30px;
+  border: 5px inset whitesmoke;
+  border-radius: 20px;
+  width: auto;
+}
+#top {
+  background-color: black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 30px;
+}
+#trydiv {
+  display: block;
+  float: right;
+  border: 3px inset whitesmoke;
+  border-radius: 20px;
+  padding: 1px;
+}
+#modediv {
+  display: block;
+  float: left;
+}
+.modebtn {
+  border: 3px inset whitesmoke;
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+#modee {
+  border: 5px inset;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+.diff {
+  display: inline;
+  font-size: 10px;
+  color: white;
+}
+#resetbtn {
+  padding: 0px 5px;
+  border-radius: 5px;
+  border-left: 15px inset whitesmoke;
+  background-color: dodgerblue;
+  font-size: 10px;
+  color: whitesmoke;
+}
+#guesstxt {
+  font-family: cooper;
+  color: whitesmoke;
+  font-size: 20px;
+}
+#buttonguess {
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 5px;
+  height: 40px;
+  background-color: dodgerblue;
+  color: whitesmoke;
+}
+#numberguess {
+  border-radius: 40px;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 40%;
+  height: 40px;
+  font-size: 15px;
+}
+.big {
+  font-size: 200%;
+  text-align: center;
+  background-color: black;
+  width: 80%;
+  border-radius: 50px;
+  padding: 10px;
+  display: block;
+  margin-top: 30px;
+}
+#alertt {
+  color: whitesmoke;
+  font-size: 10px;
+}
+.end {
+  text-align: center;
+  padding-top: 5px;
+}
+.button {
+  font-size: 200%;
+}
+.other {
+  padding-top: 2rem;
+  justify-content: space-around;
+  display: flex;
+}
+.bottomtxt {
+  font-size: 10px;
+  color: whitesmoke;
+  padding-top: 12px;
+}
